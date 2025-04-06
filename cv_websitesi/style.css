@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+}
+
+.navSection{
+    background-color: darkmagenta;
+    min-height: 90vh;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 16px;
+}
+
+.contact{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 30px;
+    padding: 16px 24px;
+    color: darkmagenta;
+}
+
+.contact:hover{
+    opacity: 0.8;
+}
+
+.personalDiv{
+    padding: 0 20%;
+}
+
+.title{
+    font-size: 60px;
+    padding: 32px 0px;
+    letter-spacing: 2px;
+}
+
+.aboutMe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutMe p{
+    width: 50%;
+}
+
+.skills{
+    list-style: none;
+    display: flex;
+    width: 50%;
+}
+
+.skills li{
+    padding: 16px;
+}
+
+.blogSection{
+    padding: 64px 20%;
+}
+
+.mainTitle{
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.blogText{
+    font-size: 20px;
+}
+
+.blogTitle{
+    font-weight: 500;
+}
+
+.blogPost{
+    margin-top: 12px;
+}
+
+.eventsSection{
+    background-color: lightgray;
+    padding: 64px 20%;
+}
+
+.event{
+    display: flex;
+    justify-content: space-between;
+    border: 4px solid darkmagenta;
+    padding: 16px;
+    border-radius: 32px;
+    margin: 20px 0px;
+}
+
+.eventTitle{
+    font-size: 24px;
+}
+
+.eventDate{
+    color: grey;
+}
+
+footer{
+    background-color: black;
+    padding: 64px;
+}
+
+footer img{
+    width: 32px;
+    height: 32px;
+    padding: 0px 8px;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: center;
+}
